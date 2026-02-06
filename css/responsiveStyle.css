@@ -1,0 +1,139 @@
+/* Tablet Screens (768px and below) */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-section {
+    padding: 100px 20px;
+    margin-top: 50px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .product-img {
+    height: 200px;
+  }
+
+  #about .col-lg-6 {
+    margin-bottom: 30px;
+  }
+
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile Screens (576px and below) */
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-section {
+    padding: 80px 15px;
+    margin-top: 50px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-title::after {
+    width: 60px;
+  }
+
+  .product-img {
+    height: 180px;
+  }
+
+  .product-name {
+    font-size: 1rem;
+  }
+
+  .product-price {
+    font-size: 1.3rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-brand i {
+    margin-right: 5px;
+  }
+
+  .btn-light {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  #about h2 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+  }
+
+  #contact .col-lg-4 {
+    margin-bottom: 20px;
+  }
+
+  footer .col-lg-4 {
+    margin-bottom: 20px;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
+
+/* Extra Small Screens (under 360px) */
+@media (max-width: 360px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .product-img {
+    height: 150px;
+  }
+
+  body {
+    font-size: 0.9rem;
+  }
+}
+
+/* Landscape Mode Adjustments */
+@media (max-height: 600px) and (orientation: landscape) {
+  .hero-section {
+    padding: 50px 20px;
+  }
+
+  .hero-title {
+    margin-bottom: 10px;
+  }
+
+  .hero-subtitle {
+    margin-bottom: 15px;
+  }
+
+  .hero-section .btn {
+    margin-top: 10px !important;
+  }
+}

@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navigation */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #ffd700 !important;
+}
+
+.navbar-brand i {
+  margin-right: 8px;
+}
+
+/* Hero Section */
+.hero-section {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(26, 26, 26, 0.7) 0%,
+      rgba(45, 45, 45, 0.7) 100%
+    ),
+    url("../images/logo1.jpg") center/cover no-repeat;
+  color: white;
+  padding: 150px 20px;
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #ffd700;
+  font-style: italic;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #ffd700, #ffed4e);
+  border-radius: 3px;
+}
+
+/* Product Cards */
+.product-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-img {
+  transform: scale(1.05);
+}
+
+.product-info {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.product-card .btn {
+  transition: all 0.3s ease;
+}
+
+.product-card .btn-primary:hover {
+  background-color: #ffd700;
+  border-color: #ffd700;
+  color: #1a1a1a;
+}
+
+.product-card .btn-outline-primary:hover {
+  background-color: #ffd700;
+  border-color: #ffd700;
+  color: #1a1a1a;
+}
+
+/* Featured Section */
+#featured {
+  padding: 80px 0 !important;
+}
+
+/* About Section */
+#about {
+  padding: 80px 0 !important;
+}
+
+#about img {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+#about img:hover {
+  transform: scale(1.02);
+}
+
+#about .list-unstyled li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* Contact Section */
+#contact {
+  padding: 80px 0 !important;
+}
+
+#contact i {
+  transition: transform 0.3s ease;
+}
+
+#contact:hover i {
+  transform: scale(1.2);
+}
+
+#contact h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+#contact p {
+  color: #666;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+}
+
+footer h5 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+footer a {
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffd700 !important;
+}
+
+.social-links a {
+  font-size: 1.3rem;
+}
+
+/* Scrollspy Active State */
+.nav-link.active {
+  color: #ffd700 !important;
+  font-weight: 600;
+}
+
+/* General Button Styles */
+.btn-primary {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+.btn-primary:hover {
+  background-color: #ffd700;
+  border-color: #ffd700;
+  color: #1a1a1a;
+}
+
+.btn-light:hover {
+  background-color: #ffd700 !important;
+  color: #1a1a1a !important;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Margins and Spacing */
+section {
+  scroll-margin-top: 80px;
+}
