@@ -10,6 +10,8 @@
 
 Riona Jewels is a fully responsive jewelry e-commerce website showcasing premium collections with elegant design and smooth user experience. Built with Bootstrap 5 and modern CSS, this project demonstrates best practices in responsive web design and component-based layouts.
 
+![Riona Jewels Preview](https://github.com/Rahaf-Tariq/E-com-project/blob/9af69838c09863df6b6cca2e84ee7cd77baed633/ecom.PNG)
+
 ## What This Project Does
 
 Riona Jewels provides:
